@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <!-- <script type="text/javascript" src="./data.js"></script> -->
+        <script type="text/javascript" src="./LOL_RuneSimulator.js"></script>
+        <script>
+            LOL_RuneSimulator('ko')
+            .then(data => {
+                document.body.appendChild(data.canvas);
+            })
+            .catch(err => {
+                console.log(err);
+            });
+            // console.log(list[first][1].length);
+        </script>
+    </body>
+</html>
