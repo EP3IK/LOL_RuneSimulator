@@ -1,9 +1,9 @@
 <html>
     <body>
         <!-- <script type="text/javascript" src="./data.js"></script> -->
-        <script type="text/javascript" src="https://raw.githubusercontent.com/EP3IK/LOL_RuneSimulator/master/LOL_RuneSimulator.js"></script>
+        <script type="text/javascript" src="https://tistory3.daumcdn.net/tistory/1064034/skin/images/LOL_RuneSimulator.js"></script>
         <script>
-            LOL_RuneSimulator('ko')
+            window.onload = LOL_RuneSimulator('ko')
             .then(data => {
                 document.body.appendChild(data.canvas);
             })

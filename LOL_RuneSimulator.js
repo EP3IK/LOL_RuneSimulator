@@ -36,8 +36,8 @@ CanvasRenderingContext2D.prototype.fillTextNewLine = function(text, x, y, maxWid
 
 const LOL_RuneSimulator = lang => {
     return new Promise((resolve, reject) => {
-        let imgJSON = 'https://raw.githubusercontent.com/EP3IK/lol_rune/master/img.json';
-        let listJSON = 'https://raw.githubusercontent.com/EP3IK/lol_rune/master/languages/' + lang + '.json';
+        let imgJSON = 'https://raw.githubusercontent.com/EP3IK/LOL_RuneSimulator/master/img.json';
+        let listJSON = 'https://raw.githubusercontent.com/EP3IK/LOL_RuneSimulator/master/languages/' + lang + '.json';
         let font = [
             {
             //     family: "BBTreeGR",
